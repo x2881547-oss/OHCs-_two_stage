@@ -1,0 +1,15 @@
+{
+  "base_folder": "E:/path/to/output/ML",
+  "data_xlsx": "E:/path/to/OHCs Top6 (frequency more than 5).xlsx",
+  "svc_best_json": "E:/path/to/SVC_TwoStage_Optuna_xxxxxxxx/best_params.json",
+  "rf_best_json": "E:/path/to/RandomForest_Tuning/best_params.json",
+  "xgb_best_json": "E:/path/to/XGBoost_Tuning/best_params.json",
+  "mlp_best_json": "E:/path/to/MLP_Tuning/best_params.json",
+  "seed": 7,
+  "n_splits": 5,
+  "n_repeats": 20,
+  "alpha_class": 1.0,
+  "export_png": true,
+  "export_pdf": true,
+  "plot_mean_roc": false
+}
